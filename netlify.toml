@@ -1,0 +1,4 @@
+# netlify.toml
+[build]
+  functions = "netlify/functions"
+  publish = "dist" # Ensure this matches your build output directory (e.g., Vite's "dist")
