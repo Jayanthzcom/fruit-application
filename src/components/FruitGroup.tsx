@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Collapse } from 'react-collapse';
+
 
 type Fruit = {
   name: string;

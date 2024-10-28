@@ -1,5 +1,4 @@
 import React from 'react';
-import { Collapse } from 'react-collapse';
 import FruitGroup from './FruitGroup';
 
 type Fruit = {
