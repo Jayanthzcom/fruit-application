@@ -6,8 +6,9 @@ import axios from 'axios';
 
 export const fetchFruits = async () => {
   try {
-    const response =await axios.get('/.netlify/functions/fetchFruits');
+    const response = await axios.get('/api');
     return response.data;
+
   } catch (error) {
     console.error("Error fetching fruits:", error);
     throw error;
